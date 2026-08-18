@@ -6,7 +6,10 @@
       "framework": "nextjs"
     },
     "backend": {
-      "root": "backend"
+      "root": "backend",
+      "framework": "django",
+      "runtime": "python",
+      "entrypoint": "config.wsgi:application"
     }
   },
   "rewrites": [
