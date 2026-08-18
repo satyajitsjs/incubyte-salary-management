@@ -1,0 +1,21 @@
+# Submission Checklist
+
+- [ ] Send/record answers to material clarification questions.
+- [ ] Review and personalize the one-page requirements document.
+- [ ] Configure your real Git name/email before committing changes.
+- [ ] Install backend dependencies and run migrations.
+- [ ] Run `pytest --cov=employees --cov=analytics --cov-report=term-missing` successfully.
+- [ ] Seed 10,000 employees and verify count in UI/API.
+- [ ] Run `npm install` and `npm run build` successfully.
+- [ ] Manually verify search/filter/sort/pagination combinations.
+- [ ] Manually verify salary update creates history.
+- [ ] Manually verify valid CSV imports and invalid CSV rolls back.
+- [ ] Deploy backend + PostgreSQL + frontend.
+- [ ] Ensure deployed app contains synthetic data only.
+- [ ] Update CORS/allowed hosts/environment secrets for deployment.
+- [ ] Update `docs/AI_USAGE.md` with actual tools/prompts used.
+- [ ] Keep truthful incremental commits; do not squash before submission.
+- [ ] Record 3–5 minute demo using `docs/DEMO_SCRIPT.md`.
+- [ ] Add deployed URL and demo URL to README.
+- [ ] Test repository setup from a clean clone.
+- [ ] Share repository link with Incubyte.

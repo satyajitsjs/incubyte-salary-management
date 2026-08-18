@@ -1,0 +1,3 @@
+import { compact, moneyUSD } from "@/lib/api";
+import type { GroupRow } from "@/lib/types";
+export function BarList({rows,keyName}:{rows:GroupRow[];keyName:"department"|"country"}){const top=rows.slice(0,8);const max=Math.max(...top.map(x=>Number(x.total_payroll_usd)),1);return <div className="barList">{top.map(row=><div key={String(row[keyName])} className="barRow"><div className="barLabels"><span>{row[keyName]}</span><span>{moneyUSD(row.total_payroll_usd)} · {compact(row.employee_count)} people</span></div><div className="barTrack"><div className="barFill" style={{width:`${Math.max(3,Number(row.total_payroll_usd)/max*100)}%`}}/></div></div>)}</div>}

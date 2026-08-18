@@ -1,0 +1,3 @@
+employee_id,first_name,last_name,email,department,job_title,job_level,country,currency,annual_salary,hire_date
+DEMO001,Ada,Lovelace,ada.lovelace@acme.example,Engineering,Backend Engineer,SENIOR,United Kingdom,GBP,80000,2024-01-02
+DEMO002,Arjun,Mehta,arjun.mehta@acme.example,Product,Product Manager,MID,India,INR,2200000,2023-06-15
